@@ -1,0 +1,8 @@
+enum ErrorMessages {
+	FILE_NOT_FOUND = 'FILE_NOT_FOUND',
+	FILE_NAME_NOT_FOUND = 'FILE_NAME_NOT_FOUND',
+	SERVICE_ERROR = 'SERVICE_ERROR',
+	DATABASE_ERROR = 'DATABASE_ERROR',
+}
+
+export default ErrorMessages;

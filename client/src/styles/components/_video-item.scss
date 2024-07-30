@@ -1,0 +1,38 @@
+.video-item {
+    margin-right: 2rem;
+    margin-bottom: $margin-bottom-default;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45rem;
+    height: 30rem;
+    border-radius: 2rem;
+
+    &__name {
+        margin-left: .5rem;
+        font-size: 2rem;
+        white-space: nowrap;
+    }
+
+    &__file {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        border-radius: 2rem;
+        overflow: hidden;
+    }
+}
+
+.placeholder-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+    &__span {
+        font-size: 15px;
+    }
+}

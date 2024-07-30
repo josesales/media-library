@@ -1,0 +1,61 @@
+.video-upload {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: $font-size-big;
+    width: 100%;
+
+    &__label {
+        font-size: $font-size-big;
+        font-family: Arial, sans-serif;
+        border-radius: 2rem !important;
+        font-family: Arial, sans-serif;
+        padding: 2px !important;
+        margin-bottom: $margin-bottom-default;
+        border: none !important;
+        text-align: center;
+        min-width: 15rem !important;
+    }
+
+    &__file{
+        display: none;
+    }
+    
+    &__input {
+        width: 30%;
+        height: 4rem;
+        font-family: inherit;
+        font-size: $font-size-default;
+        color: inherit;
+        background-color: $color-black-2;
+        border: none;
+        border-radius: 2rem;
+        padding: .7rem 2rem;
+        margin-bottom: $margin-bottom-default;
+    
+        &:focus {
+            outline: none;
+        }
+    
+        @include respond(tab-land) {
+            width: 40%;
+        }
+        @include respond(tab-port) {
+            width: 50%;
+        }
+        @include respond(phone) {
+            width: 70%;
+        }
+    }
+}
+
+.video-selected,
+.select-video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: $font-size-big;
+    margin-top: 2rem;
+}

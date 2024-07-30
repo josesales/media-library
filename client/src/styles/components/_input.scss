@@ -1,0 +1,24 @@
+.field {
+    // width: 100%;
+    // height: 12%;
+    // position: relative;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+
+    &__text {
+        width: 30%;
+        @include input;
+        transition: all .3s;
+        position: relative;
+        color: $color-black;
+        font-size: $font-size-default;
+
+        &:focus {
+            outline: none; //remove the highlighted border when the element is focused
+            box-shadow: 0 1rem 2rem rgba($color-primary-dark, .1);
+            border-bottom: 3px solid $color-primary; 
+        }
+    }
+}

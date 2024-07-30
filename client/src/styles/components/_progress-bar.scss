@@ -1,0 +1,27 @@
+.progress-bar {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 3rem;
+  background: $color-black-2;
+  border-radius: 0.5rem;
+  overflow: hidden;
+
+  &__text {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: $color-white-1;
+    font-size: 2.3rem;
+    font-weight: bold;
+  }
+
+  &__status {
+    height: 100%;
+    border-radius: 0.5rem;
+    background: $color-primary-dark;
+    transition: all 0.5s ease-out;
+  }
+}

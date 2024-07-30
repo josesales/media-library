@@ -1,0 +1,9 @@
+.container-body {
+  margin-top: 8rem;
+  margin-left: $space-corner;
+
+  @include respond(phone) {
+    margin-left: 0;
+  }
+  
+}

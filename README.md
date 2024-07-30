@@ -10,6 +10,8 @@ Android Studio if you want to run the app from the emulator or an android device
 
 Create your database with the name media-library
 
+Update the DATABASE_URL (server/prisma/.env) according to your database connection settings  
+
 Create a folder called uploads (inside the server folder) if you don't have one
 
 ### run `npm install`

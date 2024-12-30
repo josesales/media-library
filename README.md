@@ -1,8 +1,23 @@
+# Application to upload and watch videos.
+
+# Teck Stack
+- Typescript
+- React
+- Redux
+- SASS
+- Node.js
+- Express
+- Prisma
+
+# Features
+- Upload and Play Videos (Streams)
+- Background Upload   
+  
 # Getting started with the Media Library APP
 
 ## Prerequisites 
 
-A recent version Node.js (mine is 20.11.1)
+A recent version Node.js
 A PostgreSQL database server running
 Android Studio if you want to run the app from the emulator or an android device
 
